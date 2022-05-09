@@ -33,7 +33,7 @@ on:
 
 env:
   AWS_REGION: us-west-2                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY:sharmi-ecr-repo # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: sharmi-ecr-repo   # set this to your Amazon ECR repository name
   ECS_SERVICE: sharmi-ecs-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: default                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: arn:aws:ecs:us-west-2:723591733276:task-definition/first-run-task-definition:2 # set this to the path to your Amazon ECS task definition
