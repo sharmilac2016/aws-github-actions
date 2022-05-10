@@ -69,7 +69,7 @@ jobs:.
       id: build-image
       
     
-    uses: actions/checkout@v3      
+   
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         IMAGE_TAG: ${{ github.sha }}
