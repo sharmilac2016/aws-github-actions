@@ -68,8 +68,8 @@ jobs:.
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
       
-    - name: Checkout
-      uses: actions/checkout@v3      
+    
+    uses: actions/checkout@v3      
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         IMAGE_TAG: ${{ github.sha }}
