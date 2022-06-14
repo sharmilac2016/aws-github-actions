@@ -38,6 +38,7 @@ env:
   ECS_SERVICE: sharmi-ecs-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: sharmi-ecs-cluster                # set this to your Amazon ECS cluster name
   # ECS_TASK_DEFINITION: task-def.jason
+  
   #  set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: sharmi-ecs          # set this to the name of the container in the
