@@ -50,7 +50,7 @@ env:
                                                # file, e.g. .aws/task-definition.json
    #CONTAINER_NAME: sharmi-ecs          # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
-  CONTAINER_NAME: myapp
+   CONTAINER_NAME: myapp
 
 permissions:
   contents: read
