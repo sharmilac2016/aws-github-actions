@@ -39,9 +39,9 @@ on:
 env:
    AWS_REGION: us-west-2                   # set this to your preferred AWS region, e.g. us-west-1
    #ECR_REPOSITORY: sharmi-ecr-repo
-   ECR_REPOSITORY: preprod-regtech-fe-repo  #set this to your Amazon ECR repository name
+   ECR_REPOSITORY:preprod-regtech-fe-preprod-regtech-fe-repo  #set this to your Amazon ECR repository name
     #ECS_SERVICE: sharmi-ecs-service                 # set this to your Amazon ECS service name
-   ECS_SERVICE: myapp-service
+   ECS_SERVICE: sales-regtech-fe-Service
    # ECS_CLUSTER: sharmi-ecs-cluster                # set this to your Amazon ECS cluster name
    ECS_CLUSTER: preprod-regtech-fe-cluster
    # ECS_TASK_DEFINITION: task-def.jason
@@ -50,8 +50,7 @@ env:
                                                # file, e.g. .aws/task-definition.json
    #CONTAINER_NAME: sharmi-ecs          # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
-   CONTAINER_NAME: myapp
-
+   CONTAINER_NAME: sales-regtech-fe
 permissions:
   contents: read
 
