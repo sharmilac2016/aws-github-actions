@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::723591733276:role/myEcsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::723591733276:role/EcsTaskExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -31,7 +31,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "723591733276.dkr.ecr.us-west-2.amazonaws.com/preprod-regtech-fe-repo",
+      "image": "723591733276.dkr.ecr.us-west-2.amazonaws.com/sharmila",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -58,7 +58,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-west-2:723591733276:task-definition/myapp-task:52",
+  "taskDefinitionArn": "arn:aws:ecs:us-west-2:723591733276:task-definition/myapp-task:56",
   "family": "myapp-task",
   "requiresAttributes": [
     {
